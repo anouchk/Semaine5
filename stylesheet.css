@@ -1,0 +1,70 @@
+div 
+{
+	border-radius:5px;
+}
+
+.conteneur
+{
+	width:100%;
+	max-width:960px;
+	padding:10px;
+	margin:15px;
+	margin:auto;
+	display:flex;
+}
+
+.image
+{
+	width:50%;
+}
+
+.colonne
+{
+	padding:10px;
+}
+
+.carte
+{
+	padding:10px;
+	width:50%;
+}
+
+.texte_carte
+{
+	margin-left : 30px;
+	width:50%;
+}
+
+header
+{
+	background-image : url("upfeathers.png");
+	font-family:'cantarellbold';
+
+}
+
+main
+{
+	background-image : url("sprinkles.png");
+}
+
+footer
+{
+	background-image : url("swirl_pattern.png");
+}
+
+* {
+    font-family: calibri;
+}
+li {
+    list-style-type: square;
+}
+@font-face {
+    font-family: 'cantarellbold';
+    src: url('font/Cantarell-Bold-webfont.eot');
+    src: url('font/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Cantarell-Bold-webfont.woff') format('woff'),
+         url('font/Cantarell-Bold-webfont.ttf') format('truetype'),
+         url('font/Cantarell-Bold-webfont.svg#cantarellbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
